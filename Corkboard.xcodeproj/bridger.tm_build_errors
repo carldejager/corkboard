@@ -1,0 +1,24 @@
+/Users/bridger/Development/Multitouch/Bit.m|56|warning: unused variable ‘newPosition’
+/Users/bridger/Development/Multitouch/Bit.m|59|warning: ‘Bit’ may not respond to ‘-originalPosition’
+/Users/bridger/Development/Multitouch/Bit.m|59|warning: (Messages without a matching method signature
+/Users/bridger/Development/Multitouch/Bit.m|59|warning: will be assumed to return ‘id’ and accept
+/Users/bridger/Development/Multitouch/Bit.m|59|warning: ‘...’ as arguments.)
+/Users/bridger/Development/Multitouch/Bit.m|59|error: request for member ‘x’ in something not a structure or union
+/Users/bridger/Development/Multitouch/Bit.m|60|warning: ‘Bit’ may not respond to ‘-originalPosition’
+/Users/bridger/Development/Multitouch/Bit.m|60|error: request for member ‘y’ in something not a structure or union
+/Users/bridger/Development/Multitouch/Bit.m|59|warning: unused variable ‘newPosition’
+/Users/bridger/Development/Multitouch/Bit.m|70|warning: ‘Bit’ may not respond to ‘-originalPosition’
+/Users/bridger/Development/Multitouch/Bit.m|70|error: request for member ‘x’ in something not a structure or union
+/Users/bridger/Development/Multitouch/Bit.m|71|warning: ‘Bit’ may not respond to ‘-originalPosition’
+/Users/bridger/Development/Multitouch/Bit.m|71|error: request for member ‘y’ in something not a structure or union
+/Users/bridger/Development/Multitouch/Bit.m|70|warning: unused variable ‘newPosition’
+/Users/bridger/Development/Multitouch/Bit.m|73|error: ‘CGPosition’ undeclared (first use in this function)
+/Users/bridger/Development/Multitouch/Bit.m|73|error: (Each undeclared identifier is reported only once
+/Users/bridger/Development/Multitouch/Bit.m|73|error: for each function it appears in.)
+/Users/bridger/Development/Multitouch/Bit.m|73|error: syntax error before ‘newPosition’
+/Users/bridger/Development/Multitouch/Bit.m|75|error: ‘newPosition’ undeclared (first use in this function)
+/Users/bridger/Development/Multitouch/Bit.m|76|warning: control reaches end of non-void function
+/Users/bridger/Development/Multitouch/Bit.m|83|error: ‘newRotation’ undeclared (first use in this function)
+/Users/bridger/Development/Multitouch/Bit.m|84|warning: control reaches end of non-void function
+/Users/bridger/Development/Multitouch/Bit.m|87|error: ‘newScale’ undeclared (first use in this function)
+/Users/bridger/Development/Multitouch/Bit.m|88|warning: control reaches end of non-void function

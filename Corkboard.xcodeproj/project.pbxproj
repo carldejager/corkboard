@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		AE043ED40D2F73E10084EE04 /* CBPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AE043ED30D2F73E10084EE04 /* CBPhoto.m */; };
+		AE043EF20D2F78C30084EE04 /* QuartzUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AE043EF10D2F78C30084EE04 /* QuartzUtils.m */; };
+		AE0E112E0DD6231600DB58DC /* TUIO.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE7560400DD59347004B9529 /* TUIO.framework */; };
+		AE0E11320DD6231900DB58DC /* QuickLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AE0E10F70DD6225300DB58DC /* QuickLite.framework */; };
+		AE0E11390DD623A700DB58DC /* TUIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7560400DD59347004B9529 /* TUIO.framework */; };
+		AE0E11890DD624F600DB58DC /* QuickLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0E10F70DD6225300DB58DC /* QuickLite.framework */; };
+		AE141DFA0D6A541E004116E4 /* CBComic.m in Sources */ = {isa = PBXBuildFile; fileRef = AE141DF90D6A541E004116E4 /* CBComic.m */; };
+		AE4812740D3D2C4F0067A39B /* CBClip.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4812730D3D2C4F0067A39B /* CBClip.m */; };
+		AE4813140D3D32CE0067A39B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4813100D3D32CE0067A39B /* CoreVideo.framework */; };
+		AE4813150D3D32CE0067A39B /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4813110D3D32CE0067A39B /* QuickTime.framework */; };
+		AE4813160D3D32CE0067A39B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4813120D3D32CE0067A39B /* OpenGL.framework */; };
+		AE4813170D3D32CE0067A39B /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4813130D3D32CE0067A39B /* QTKit.framework */; };
+		AE7D1FD30D289FA70023D8C9 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D1FD20D289FA70023D8C9 /* BoardView.m */; };
+		AE7D1FDB0D28A2A70023D8C9 /* Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7D1FDA0D28A2A70023D8C9 /* Bit.m */; };
+		AEE64D3D0D30B8090075FA74 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE64D3C0D30B8090075FA74 /* Quartz.framework */; };
+		AEF29D100D35656D00655A9D /* CBDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF29D0F0D35656D00655A9D /* CBDocument.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE75603F0DD59347004B9529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4D2F910D6911AC0028F4AA /* TUIO.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = TUIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE1B9FE00D63C2C500A4F406 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE0E11320DD6231900DB58DC /* QuickLite.framework in CopyFiles */,
+				AE0E112E0DD6231600DB58DC /* TUIO.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Multitouch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multitouch_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Corkboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Corkboard.app; path = build/Release/Corkboard.app; sourceTree = "<group>"; };
+		AE043ED20D2F73E10084EE04 /* CBPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPhoto.h; sourceTree = "<group>"; };
+		AE043ED30D2F73E10084EE04 /* CBPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPhoto.m; sourceTree = "<group>"; };
+		AE043EF00D2F78C30084EE04 /* QuartzUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzUtils.h; sourceTree = "<group>"; };
+		AE043EF10D2F78C30084EE04 /* QuartzUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzUtils.m; sourceTree = "<group>"; };
+		AE0E10F70DD6225300DB58DC /* QuickLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuickLite.framework; sourceTree = "<group>"; };
+		AE141DF80D6A541E004116E4 /* CBComic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBComic.h; sourceTree = "<group>"; };
+		AE141DF90D6A541E004116E4 /* CBComic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBComic.m; sourceTree = "<group>"; };
+		AE4812720D3D2C4F0067A39B /* CBClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBClip.h; sourceTree = "<group>"; };
+		AE4812730D3D2C4F0067A39B /* CBClip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBClip.m; sourceTree = "<group>"; };
+		AE4813100D3D32CE0067A39B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		AE4813110D3D32CE0067A39B /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		AE4813120D3D32CE0067A39B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		AE4813130D3D32CE0067A39B /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		AE4D2F910D6911AC0028F4AA /* TUIO.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TUIO.xcodeproj; path = "TUIO Framework/TUIO.xcodeproj"; sourceTree = "<group>"; };
+		AE7D1FD10D289FA70023D8C9 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		AE7D1FD20D289FA70023D8C9 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		AE7D1FD90D28A2A70023D8C9 /* Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bit.h; sourceTree = "<group>"; };
+		AE7D1FDA0D28A2A70023D8C9 /* Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bit.m; sourceTree = "<group>"; };
+		AEE64D3C0D30B8090075FA74 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		AEF29D0E0D35656D00655A9D /* CBDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBDocument.h; sourceTree = "<group>"; };
+		AEF29D0F0D35656D00655A9D /* CBDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBDocument.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0E11390DD623A700DB58DC /* TUIO.framework in Frameworks */,
+				AE0E11890DD624F600DB58DC /* QuickLite.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				AEE64D3D0D30B8090075FA74 /* Quartz.framework in Frameworks */,
+				AE4813140D3D32CE0067A39B /* CoreVideo.framework in Frameworks */,
+				AE4813150D3D32CE0067A39B /* QuickTime.framework in Frameworks */,
+				AE4813160D3D32CE0067A39B /* OpenGL.framework in Frameworks */,
+				AE4813170D3D32CE0067A39B /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE043EF00D2F78C30084EE04 /* QuartzUtils.h */,
+				AE043EF10D2F78C30084EE04 /* QuartzUtils.m */,
+				AE043ED10D2F73960084EE04 /* CorkBoard */,
+				AE7D1FD10D289FA70023D8C9 /* BoardView.h */,
+				AE7D1FD20D289FA70023D8C9 /* BoardView.m */,
+				AE7D1FD90D28A2A70023D8C9 /* Bit.h */,
+				AE7D1FDA0D28A2A70023D8C9 /* Bit.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0E10F70DD6225300DB58DC /* QuickLite.framework */,
+				AE4D2F910D6911AC0028F4AA /* TUIO.xcodeproj */,
+				AE4813100D3D32CE0067A39B /* CoreVideo.framework */,
+				AE4813110D3D32CE0067A39B /* QuickTime.framework */,
+				AE4813120D3D32CE0067A39B /* OpenGL.framework */,
+				AE4813130D3D32CE0067A39B /* QTKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE64D3C0D30B8090075FA74 /* Quartz.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Corkboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Multitouch */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Multitouch;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Multitouch_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE043ED10D2F73960084EE04 /* CorkBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AE141DF80D6A541E004116E4 /* CBComic.h */,
+				AE141DF90D6A541E004116E4 /* CBComic.m */,
+				AE043ED20D2F73E10084EE04 /* CBPhoto.h */,
+				AE043ED30D2F73E10084EE04 /* CBPhoto.m */,
+				AEF29D0E0D35656D00655A9D /* CBDocument.h */,
+				AEF29D0F0D35656D00655A9D /* CBDocument.m */,
+				AE4812720D3D2C4F0067A39B /* CBClip.h */,
+				AE4812730D3D2C4F0067A39B /* CBClip.m */,
+			);
+			name = CorkBoard;
+			sourceTree = "<group>";
+		};
+		AE75603C0DD59347004B9529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE7560400DD59347004B9529 /* TUIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Corkboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Corkboard" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				AE1B9FE00D63C2C500A4F406 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Corkboard;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Multitouch;
+			productReference = 8D1107320486CEB800E47090 /* Corkboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Corkboard" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Multitouch */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AE75603C0DD59347004B9529 /* Products */;
+					ProjectRef = AE4D2F910D6911AC0028F4AA /* TUIO.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Corkboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AE7560400DD59347004B9529 /* TUIO.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TUIO.framework;
+			remoteRef = AE75603F0DD59347004B9529 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				AE7D1FD30D289FA70023D8C9 /* BoardView.m in Sources */,
+				AE7D1FDB0D28A2A70023D8C9 /* Bit.m in Sources */,
+				AE043ED40D2F73E10084EE04 /* CBPhoto.m in Sources */,
+				AE043EF20D2F78C30084EE04 /* QuartzUtils.m in Sources */,
+				AEF29D100D35656D00655A9D /* CBDocument.m in Sources */,
+				AE4812740D3D2C4F0067A39B /* CBClip.m in Sources */,
+				AE141DFA0D6A541E004116E4 /* CBComic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../TUIO/build/Release\"",
+					"\"$(SRCROOT)/../TUIO/build/Debug\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Multitouch_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Multitouch;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../TUIO/build/Release\"",
+					"\"$(SRCROOT)/../TUIO/build/Debug\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Multitouch_Prefix.pch;
+				HEADER_SEARCH_PATHS = "@executable_path/..//**";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = Multitouch;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "@executable_path/../Frameworks//**";
+				PREBINDING = NO;
+				PRODUCT_NAME = Corkboard;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				FRAMEWORK_SEARCH_PATHS = "@executable_path/../Frameworks//**";
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "@executable_path/../Frameworks/TUIO.framework/Headers/**";
+				LIBRARY_SEARCH_PATHS = "@executable_path/../Frameworks//**";
+				PREBINDING = NO;
+				PRODUCT_NAME = Corkboard;
+				VALID_ARCHS = "ppc64 ppc7400 ppc970 i386 x86_64 ppc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Corkboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Corkboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
