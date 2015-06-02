@@ -1,0 +1,1 @@
+Corkboard is a multi-touch application that uses Core Animation to display xkcd comics on OS X. Corkboard is to be used with [OpenTouch](http://code.google.com/p/opentouch), or another application for that sends TUIO messages.
